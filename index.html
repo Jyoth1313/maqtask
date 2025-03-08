@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Systems Engineer Task Documentation</title>
+  <style>
+    /* Reset & Base */
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Roboto', sans-serif;
+      background: linear-gradient(135deg, #141e30, #243b55);
+      color: #f0f0f0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    header {
+      text-align: center;
+      padding: 2rem 1rem;
+      background: rgba(0, 0, 0, 0.3);
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+      letter-spacing: 1px;
+    }
+    header p {
+      font-size: 1.2rem;
+      opacity: 0.8;
+    }
+    .doc-container {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 2rem;
+    }
+    .doc-card {
+      background: rgba(255, 255, 255, 0.05);
+      padding: 2rem;
+      border-radius: 15px;
+      max-width: 800px;
+      width: 100%;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    .doc-card h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      text-align: center;
+      border-bottom: 2px solid #00d1b2;
+      padding-bottom: 0.5rem;
+    }
+    .doc-card h3 {
+      font-size: 1.5rem;
+      margin: 1rem 0 0.5rem;
+      color: #00d1b2;
+    }
+    .doc-card p, .doc-card li {
+      line-height: 1.6;
+      font-size: 1rem;
+      margin-bottom: 1rem;
+    }
+    .doc-card ul {
+      list-style-type: disc;
+      padding-left: 1.5rem;
+      margin-bottom: 1rem;
+    }
+    .doc-card ol {
+      padding-left: 1.5rem;
+      margin-bottom: 1rem;
+    }
+    /* Download Button Styles */
+    .download-btn {
+      display: inline-block;
+      background: #00d1b2;
+      color: #fff;
+      text-decoration: none;
+      padding: 0.75rem 1.5rem;
+      border-radius: 30px;
+      font-size: 1.2rem;
+      margin: 20px 0;
+      transition: background 0.3s ease;
+    }
+    .download-btn:hover {
+      background: #00b09c;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: rgba(0, 0, 0, 0.3);
+      font-size: 0.9rem;
+    }
+    @media (max-width: 600px) {
+      header h1 { font-size: 2rem; }
+      .doc-card h2 { font-size: 1.5rem; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Systems Engineer Task Documentation</h1>
+    <p>MAQ Software Recruitment Process</p>
+  </header>
+  <div class="doc-container">
+    <div class="doc-card">
+      <h2>Task Overview & Documentation</h2>
+      <p>This document outlines the process for creating a Web application as part of the Systems Engineer recruitment process at MAQ Software. This is a single-page frontend with documentation additionally for that Task.</p>
+      
+      <h3>Task Details</h3>
+      <ul>
+        <li>Develop a web application </li>
+        <li>Ensure the site is fully accessible via a public IP (Domain), when deployed.</li>
+        <li>The documentation is attached for the Task.</li>
+      </ul>
+      
+      
+      <h3>Frontend Setup Steps</h3>
+      <ol>
+        <li>Design a responsive, single-page application using HTML5, CSS3. </li>
+        <li>Embed the detailed task documentation in the center of the page for easy review.</li>
+        <li>Deploy the web app to ensure it is publicly accessible.</li>
+      </ol>
+      
+      <div style="text-align: center;">
+        <a href="documentation.pdf" download class="download-btn">Download PDF</a>
+      </div>
+      
+      <p>You can download the Documentation,as mentioned in the Task Description. </p>
+    </div>
+  </div>
+  <footer>
+    <p>&copy; 2025 MAQ Software Recruitment Process Documentation</p>
+  </footer>
+</body>
+</html>
